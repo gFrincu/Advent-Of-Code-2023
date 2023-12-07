@@ -32,7 +32,7 @@ def countCalibrationValues(content):
 def replaceLetters(content):
 	newContent = []
 	for line in content:
-		newContent.append(line.replace("one", "o1e", -1).replace("two", "t2o", -1).replace("three", "th3ee", -1).replace("four", "4", -1).replace("five", "5", -1).replace("six", "6", -1).replace("seven", "se7en", -1).replace("eight", "ei8ht", -1).replace("nine", "n9ne", -1))
+		newContent.append(line.replace("one", "o1e", -1).replace("two", "t2o", -1).replace("three", "th3ee", -1).replace("four", "4", -1).replace("five", "fi5e", -1).replace("six", "6", -1).replace("seven", "se7en", -1).replace("eight", "ei8ht", -1).replace("nine", "n9ne", -1))
 	return newContent
 
 # Read the file content
